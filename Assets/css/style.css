@@ -20,7 +20,7 @@ a{
 
 #banner{
     min-height: 100vh;
-    background: linear-gradient(to right, hsla(40, 7%, 27%, 0.856) ,rgba(248, 244, 244, 0.315)), 
+    background: linear-gradient(to right, hsla(36, 85%, 40%, 0.856) ,rgba(189, 79, 79, 0.315)), 
     url(https://northernnester.com/wp-content/uploads/2020/02/HOW-LONG-DOES-BREWED-TEA-LAST.jpeg);
     background-size: cover;
 }   
@@ -72,7 +72,8 @@ a{
 }
 section {
     padding-top: 100px;
-    padding-bottom: 100px;  
+    padding-bottom: 100px;
+    padding: 60px 20px;  
 }
 
 #about {
@@ -89,6 +90,7 @@ section {
 
 .card {
     transition: background-color 0.3s, color 0.3s;
+    margin-bottom: 20px;
 }
 
 .card:hover {
@@ -122,7 +124,7 @@ section {
     border-radius: 1px;
 }
 
-.testimonials img {
+.testimonials img {     
     width: 65px;
     border-radius: 100px;
     height: 65px;
@@ -214,4 +216,8 @@ section {
 .btn-outline-light {
     border-color: #F2B03B !important;
     color:#F2B03B
+}
+
+@media screen and (max-width:767px) {
+
 }
