@@ -72,8 +72,7 @@ a{
 }
 section {
     padding-top: 100px;
-    padding-bottom: 100px;
-    padding: 60px 20px;  
+    padding-bottom: 100px; 
 }
 
 #about {
@@ -90,7 +89,6 @@ section {
 
 .card {
     transition: background-color 0.3s, color 0.3s;
-    margin-bottom: 20px;
 }
 
 .card:hover {
@@ -110,7 +108,7 @@ section {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: linear-gradient(to right, hsla(50, 1%, 50%, 0.856) ,rgba(253, 248, 248, 0.315)), 
+    background-image: linear-gradient(to right, hsla(12, 3%, 66%, 0.856) ,rgba(126, 87, 87, 0.315)), 
     url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7NVORcuKFVNxxxMcrhAn0V2lCb1eAJPCQrQ&s);
     min-height: 70vh;
 }
@@ -220,4 +218,12 @@ section {
 
 @media screen and (max-width:767px) {
 
+    section {
+        padding: 60px 20px;
+    }
+
+    .card{
+        margin-bottom: 20px;
+
+    }
 }
